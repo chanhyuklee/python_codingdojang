@@ -13,6 +13,7 @@ class TimeIterator:
             return "%02d:%02d:%02d"%(hour % 24, minute, tot_sec)
         else:
             raise IndexError
+    
 
 start, stop, index = map(int, input().split())   
 
